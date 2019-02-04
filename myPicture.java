@@ -2,8 +2,8 @@
 /**
  * Write a description of class myPicture here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Isabella Reinn Dela Pena)
+ * @version (2.4.19)
  */
 public class myPicture
 {
