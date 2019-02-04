@@ -17,6 +17,12 @@ public class myPicture
     private Circle sunRay2;
     private Circle sunRay3;
     private Circle sunRay4;
+    private Circle sunRay5;
+    private Circle sunRay6;
+    private Circle sunRay7;
+    private Circle sunRay8;
+    private Circle sunRay9;
+    private Circle sunRay10;
     private boolean drawn;
 
     /**
@@ -34,6 +40,12 @@ public class myPicture
         sunRay2 = new Circle();
         sunRay3 = new Circle();
         sunRay4 = new Circle();
+        sunRay5 = new Circle();
+        sunRay6 = new Circle();
+        sunRay7 = new Circle();
+        sunRay8 = new Circle();
+        sunRay9 = new Circle();
+        sunRay10 = new Circle();
         drawn = false;
     }
     
@@ -41,20 +53,66 @@ public class myPicture
     {
         if(!drawn) 
         {   
-   
+            sunRay10.changeColor("red");
+            sunRay10.moveHorizontal(0);
+            sunRay10.moveVertical(-130);
+            sunRay10.changeSize(390);
+            sunRay10.makeVisible();
+            
+            sunRay9.changeColor("white");
+            sunRay9.moveHorizontal(12);
+            sunRay9.moveVertical(-120);
+            sunRay9.changeSize(360);
+            sunRay9.makeVisible();
+            
+            sunRay8.changeColor("red");
+            sunRay8.moveHorizontal(24);
+            sunRay8.moveVertical(-110);
+            sunRay8.changeSize(330);
+            sunRay8.makeVisible();
+            
+            sunRay7.changeColor("white");
+            sunRay7.moveHorizontal(36);
+            sunRay7.moveVertical(-100);
+            sunRay7.changeSize(300);
+            sunRay7.makeVisible();
+            
+            sunRay6.changeColor("red");
+            sunRay6.moveHorizontal(48);
+            sunRay6.moveVertical(-90);
+            sunRay6.changeSize(270);
+            sunRay6.makeVisible();
+            
+            sunRay5.changeColor("white");
+            sunRay5.moveHorizontal(60);
+            sunRay5.moveVertical(-80);
+            sunRay5.changeSize(240);
+            sunRay5.makeVisible();
+            
+            sunRay4.changeColor("red");
+            sunRay4.moveHorizontal(72);
+            sunRay4.moveVertical(-70);
+            sunRay4.changeSize(210);
+            sunRay4.makeVisible();
+            
+            sunRay3.changeColor("white");
+            sunRay3.moveHorizontal(84);
+            sunRay3.moveVertical(-60);
+            sunRay3.changeSize(180);
+            sunRay3.makeVisible();
+            
             sunRay2.changeColor("red");
-            sunRay2.moveHorizontal(80);
-            sunRay2.moveVertical(-30);
+            sunRay2.moveHorizontal(96);
+            sunRay2.moveVertical(-50);
             sunRay2.changeSize(150);
             sunRay2.makeVisible();
             
             sunRay.changeColor("white");
-            sunRay.moveHorizontal(100);
-            sunRay.moveVertical(-30);
+            sunRay.moveHorizontal(108);
+            sunRay.moveVertical(-40);
             sunRay.changeSize(120);
             sunRay.makeVisible();
             
-           
             sun.changeColor("red");
             sun.moveHorizontal(120);
             sun.moveVertical(-30);
